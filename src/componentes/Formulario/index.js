@@ -15,7 +15,7 @@ const Formulario = ({ aoCadastrar, times, cadastrarTime }) => {
 
     const aoSubmeter = (evento) => {
         evento.preventDefault()
-        console.log('form enviado', nome, cargo, imagem, time)
+        // console.log('form enviado', nome, cargo, imagem, time)
         aoCadastrar({
             nome,
             cargo,
